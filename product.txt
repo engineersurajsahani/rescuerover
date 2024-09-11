@@ -1,0 +1,114 @@
+[
+  {
+    "name": "RescueRover Tshirt",
+    "price": 25,
+    "description": "RescueRover Tshirt",
+    "category": "Tshirt",
+    "imageUrl": "https://drive.google.com/file/d/1ErRSKTHSXOD023S-jY8TPIh5mGOXExT8/view?usp=sharing",
+    "stock": 100
+  },
+  {
+    "name": "RescueRover Tshirt",
+    "price": 25,
+    "description": "RescueRover Tshirt",
+    "category": "Tshirt",
+    "imageUrl": "https://drive.google.com/file/d/1DRVFPYBFYCbz6hvwcEDwGCPIunao8O5f/view?usp=sharing",
+    "stock": 100
+  },
+  {
+    "name": "RescueRover Tshirt",
+    "price": 25,
+    "description": "RescueRover Tshirt",
+    "category": "Tshirt",
+    "imageUrl": "https://drive.google.com/file/d/1xP7t7LnjWRHQsD2GogpWSVJEvoCIg9Zq/view?usp=sharing",
+    "stock": 100
+  },
+  {
+    "name": "RescueRover Cup",
+    "price": 30,
+    "description": "RescueRover Cup",
+    "category": "Cup",
+    "imageUrl": "https://drive.google.com/file/d/1bg5CD9qqqKCUbgi2HVbIZrnfOCyQornM/view?usp=sharing",
+    "stock": 100
+  },
+  {
+    "name": "RescueRover Cup",
+    "price": 30,
+    "description": "RescueRover Cup",
+    "category": "Cup",
+    "imageUrl": "https://drive.google.com/file/d/1yrsNSMUYN0eXTchnOMngnDLrA6KZMmb3/view?usp=sharing",
+    "stock": 100
+  },
+  {
+    "name": "RescueRover Cup",
+    "price": 30,
+    "description": "RescueRover Cup",
+    "category": "Cup",
+    "imageUrl": "https://drive.google.com/file/d/1gCwHNu-RnYLd6lIJTBqywf5AlY2C-Br3/view?usp=sharing",
+    "stock": 100
+  },
+  {
+    "name": "RescueRover Cup",
+    "price": 30,
+    "description": "RescueRover Cup",
+    "category": "Cup",
+    "imageUrl": "https://drive.google.com/file/d/1uDUtW0AAHBjNsuZKbgbUwMdC0jPX-pNV/view?usp=sharing",
+    "stock": 100
+  },
+  {
+    "name": "RescueRover Food",
+    "price": 35,
+    "description": "RescueRover Food",
+    "category": "Food",
+    "imageUrl": "https://drive.google.com/file/d/1tYUmFQ09iAOqo0AavuZvW8F58RVzhfME/view?usp=sharing",
+    "stock": 100
+  },
+  {
+    "name": "RescueRover Food",
+    "price": 35,
+    "description": "RescueRover Food",
+    "category": "Food",
+    "imageUrl": "https://drive.google.com/file/d/1o0ChD0Cp6ttlvJCaoe78msfN_MJJwa7m/view?usp=sharing",
+    "stock": 100
+  },
+  {
+    "name": "RescueRover Food",
+    "price": 35,
+    "description": "RescueRover Food",
+    "category": "Food",
+    "imageUrl": "https://drive.google.com/file/d/18IuBvhPZl4E7uFeshqmmme5c234HZj-z/view?usp=sharing",
+    "stock": 100
+  },
+  {
+    "name": "RescueRover Shampoo",
+    "price": 35,
+    "description": "RescueRover Shampoo",
+    "category": "Shampoo",
+    "imageUrl": "https://drive.google.com/file/d/1XNZqawLH7sgbvV8iwrIDiP9FBecFxh6c/view?usp=sharing",
+    "stock": 100
+  },
+  {
+    "name": "RescueRover Shampoo",
+    "price": 35,
+    "description": "RescueRover Shampoo",
+    "category": "Shampoo",
+    "imageUrl": "https://drive.google.com/file/d/1qwKGW4LLcJ9bfGRbwBeN6D2LSlVjBZ2t/view?usp=sharing",
+    "stock": 100
+  },
+  {
+    "name": "RescueRover Shampoo",
+    "price": 35,
+    "description": "RescueRover Shampoo",
+    "category": "Shampoo",
+    "imageUrl": "https://drive.google.com/file/d/17cNFcEVuhJ-yJpwJVFG9NJTvhRyNLTzu/view?usp=sharing",
+    "stock": 100
+  },
+  {
+    "name": "RescueRover Shampoo",
+    "price": 35,
+    "description": "RescueRover Shampoo",
+    "category": "Shampoo",
+    "imageUrl": "https://drive.google.com/file/d/1KUrxfPbfLVJnKgd1PRuoG3ZXfDO53UUz/view?usp=sharing",
+    "stock": 100
+  }
+]
