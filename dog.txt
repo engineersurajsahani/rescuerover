@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Buddy",
+    "age": 3,
+    "description": "Friendly and energetic golden retriever.",
+    "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.q7hrrlJmYEnTavqubhP6fwHaE8&pid=Api&P=0&h=180",
+    "category": "Dog",
+    "subcategory": "Special",
+    "adopted":"No"
+  },
+  {
+    "name": "Max",
+    "age": 2,
+    "description": "Intelligent and loyal German shepherd.",
+    "imageUrl": "https://1.bp.blogspot.com/-sNMzt5B_434/UqRMeJqTFXI/AAAAAAAAWy8/S1HlRlOLQ2w/s1600/cute-puppy-298302.jpg",
+    "category": "Dog",
+    "subcategory": "Special",
+    "adopted":"No"
+  },
+  {
+    "name": "Bella",
+    "age": 1,
+    "description": "Playful and loving Labrador.",
+    "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.cS39mgDb_fqP1V5fQmrK7QHaGc&pid=Api&P=0&h=180",
+    "category": "Dog",
+    "subcategory": "Special",
+    "adopted":"No"
+  },
+  {
+    "name": "Lucy",
+    "age": 4,
+    "description": "Elegant and smart poodle.",
+    "imageUrl": "https://static.businessinsider.com/image/5484d9d1eab8ea3017b17e29/image.jpg",
+    "category": "Dog",
+    "subcategory": "Special",
+    "adopted":"No"
+  },
+  {
+    "name": "Daisy",
+    "age": 3,
+    "description": "Gentle and affectionate bulldog.",
+    "imageUrl": "https://cdn.wallpapersafari.com/80/71/Bvsydt.jpeg",
+    "category": "Dog",
+    "subcategory": "Special",
+    "adopted":"No"
+  },
+  {
+    "name": "Charlie",
+    "age": 5,
+    "description": "Curious and energetic beagle.",
+    "imageUrl": "http://images4.fanpop.com/image/photos/16700000/Dogs-dogs-16762038-1024-768.jpg",
+    "category": "Dog",
+    "subcategory": "Normal",
+    "adopted":"No"
+  },
+  {
+    "name": "Rocky",
+    "age": 6,
+    "description": "Playful and strong boxer.",
+    "imageUrl": "https://cdn.pixabay.com/photo/2017/10/26/05/15/dog-2890078_1280.jpg",
+    "category": "Dog",
+    "subcategory": "Normal",
+    "adopted":"No"
+  },
+  {
+    "name": "Maggie",
+    "age": 2,
+    "description": "Lively and adventurous dachshund.",
+    "imageUrl": "https://wallpapercave.com/wp/wp5072456.jpg",
+    "category": "Dog",
+    "subcategory": "Normal",
+    "adopted":"No"
+  },
+  {
+    "name": "Rex",
+    "age": 4,
+    "description": "Strong and energetic husky.",
+    "imageUrl": "https://getwallpapers.com/wallpaper/full/a/e/0/845125-cute-puppy-wallpapers-for-desktop-2560x1600-for-macbook.jpg",
+    "category": "Dog",
+    "subcategory": "Normal",
+    "adopted":"No"
+  },
+  {
+    "name": "Sadie",
+    "age": 7,
+    "description": "Affectionate and charming Shih Tzu.",
+    "imageUrl": "https://wallpapercave.com/wp/d4FPB0z.jpg",
+    "category": "Dog",
+    "subcategory": "Normal",
+    "adopted":"No"
+  }
+]
