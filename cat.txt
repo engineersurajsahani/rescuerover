@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Whiskers",
+    "age": 2,
+    "description": "Sleek and talkative Siamese cat.",
+    "imageUrl": "https://wallup.net/wp-content/uploads/2018/10/06/708179-kittens-kitten-cat-cats-baby-cute-s.jpg",
+    "category": "Cat",
+    "subcategory": "Special",
+    "adopted":"No"
+  },
+  {
+    "name": "Luna",
+    "age": 3,
+    "description": "Beautiful and calm Persian cat.",
+    "imageUrl": "https://static.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg",
+    "category": "Cat",
+    "subcategory": "Special",
+    "adopted":"No"
+  },
+  {
+    "name": "Oliver",
+    "age": 4,
+    "description": "Friendly and gentle Maine Coon.",
+    "imageUrl": "http://images6.fanpop.com/image/photos/34300000/Kitten-cats-34352405-1600-1200.jpg",
+    "category": "Cat",
+    "subcategory": "Special",
+    "adopted":"No"
+  },
+  {
+    "name": "Chloe",
+    "age": 1,
+    "description": "Unique and playful Sphynx cat.",
+    "imageUrl": "https://wallpapercave.com/wp/wp2656937.jpg",
+    "category": "Cat",
+    "subcategory": "Special",
+    "adopted":"No"
+  },
+  {
+    "name": "Mittens",
+    "age": 5,
+    "description": "Cute and affectionate Scottish Fold.",
+    "imageUrl": "http://4.bp.blogspot.com/-UBwu8BnxW1w/Ti50-JE4n6I/AAAAAAAABZU/denWZWSFiZg/s1600/cute+cat+wallpaper+3.jpg",
+    "category": "Cat",
+    "subcategory": "Special",
+    "adopted":"No"
+  },
+  {
+    "name": "Simba",
+    "age": 6,
+    "description": "Energetic and playful tabby cat.",
+    "imageUrl": "https://cdn.pixabay.com/photo/2023/06/11/20/19/ai-generated-8056853_1280.jpg",
+    "category": "Cat",
+    "subcategory": "Normal",
+    "adopted":"No"
+  },
+  {
+    "name": "Bella",
+    "age": 3,
+    "description": "Colorful and curious Calico cat.",
+    "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.2mggqeJ4NZV5yiwdvcq5YwAAAA&pid=Api&P=0&h=180",
+    "category": "Cat",
+    "subcategory": "Normal",
+    "adopted":"No"
+  },
+  {
+    "name": "Toby",
+    "age": 2,
+    "description": "Active and stunning Bengal cat.",
+    "imageUrl": "http://www.petsworld.in/blog/wp-content/uploads/2014/09/adorable-cat.jpg",
+    "category": "Cat",
+    "subcategory": "Normal",
+    "adopted":"No"
+  },
+  {
+    "name": "Nala",
+    "age": 4,
+    "description": "Elegant and reserved Russian Blue.",
+    "imageUrl": "https://www.rd.com/wp-content/uploads/2023/05/GettyImages-1341465008.jpg",
+    "category": "Cat",
+    "subcategory": "Normal",
+    "adopted":"No"
+  },
+  {
+    "name": "Oscar",
+    "age": 5,
+    "description": "Energetic and curious Abyssinian cat.",
+    "imageUrl": "https://www.thesprucepets.com/thmb/0vKXtwRwIQxOAxQ0I27Fr6f72Pk=/2121x0/filters:no_upscale():strip_icc()/GingerTabbyShorthair-e3b45511a76a4b25a6fb421e60f04025.jpg",
+    "category": "Cat",
+    "subcategory": "Normal",
+    "adopted":"No"
+  }
+]
