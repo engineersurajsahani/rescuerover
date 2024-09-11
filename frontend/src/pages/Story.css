@@ -1,0 +1,21 @@
+.story-content {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.story-content p {
+  margin-bottom: 1em;
+}
+
+.story-stats {
+  margin-top: 2em;
+}
+
+.story-stats ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.story-stats li {
+  margin-bottom: 0.5em;
+}

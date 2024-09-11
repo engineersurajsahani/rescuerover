@@ -1,0 +1,61 @@
+.home-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.video-background video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.content {
+  margin-bottom: 50px;
+}
+
+.new-friend-section {
+  margin-top: 50px;
+}
+
+.new-friend-section h2 {
+  font-size: 2.5rem;
+}
+
+.new-friend-section p {
+  font-size: 1.2rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+}
+
+.button-group .btn {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}
+
+.video-background:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  /* Overlay effect to make text more visible */
+}

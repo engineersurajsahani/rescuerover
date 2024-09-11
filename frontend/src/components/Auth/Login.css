@@ -1,0 +1,66 @@
+/* Full-page background image with blur effect */
+.register-container {
+    position: relative;
+    /* Make the container a positioned element */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    /* Add padding to prevent card from touching edges */
+}
+
+/* Blurred background image */
+.register-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../Auth/images/catdog.webp');
+    /* Path to the grass background image */
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    /* Apply the blur effect here */
+    z-index: -1;
+    /* Ensure the background stays behind the content */
+    width: 100%;
+    height: 100%;
+}
+
+/* Card styling with a background image */
+.custom-card {
+    background-image: url('');
+    /* Path to the catdog background image */
+    background-size: contain;
+    /* Ensure the image fits inside the card */
+    background-repeat: no-repeat;
+    /* Prevent image from repeating */
+    background-position: center center;
+    /* Center the image */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    /* Make the card take full width of the column */
+    max-width: 900px;
+    /* Set a maximum width */
+    min-width: 600px;
+    /* Set a minimum width */
+}
+
+/* Card body styling for readability */
+.card-body {
+    background: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent background for readability */
+    padding: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* Rounded corners for the content */
+    z-index: 1;
+    /* Ensure the card content stays above the background */
+}

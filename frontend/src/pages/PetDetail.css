@@ -1,0 +1,10 @@
+.card-img-top {
+  height: auto;
+  /* Ensures the height adjusts based on the image's aspect ratio */
+  max-height: 400px;
+  /* Sets a maximum height to prevent the image from getting too large */
+  width: 100%;
+  /* Ensures the image takes up the full width of the card */
+  object-fit: cover;
+  /* Ensures the image covers the area without distortion */
+}
