@@ -17,6 +17,18 @@ import Register from './components/Auth/Register';
 import AdoptForm from './pages/AdoptForm';  
 import Footer from './components/Footer';
 import LeftOver from './pages/LeftOver';
+import Cart from './pages/Cart';
+import CheckoutPage from './pages/CheckoutPage';
+import InvoicePage from './pages/InvoicePage';
+import Orders from './pages/Orders';
+import FeedbackForm from './pages/FeedbackForm';
+
+import AdminDashboard from './components/admin/AdminDashboard';
+import PetsManagement from './components/admin/PetsManagement';
+import ProductsManagement from './components/admin/ProductsManagement';
+import PetForm from './components/admin/PetForm';
+import ProductForm from './components/admin/ProductForm';
+import CustomerOrder from './components/admin/CustomerOrder';
 
 function App() {
   return (
@@ -37,7 +49,21 @@ function App() {
         <Route path="/collaboration/:name" element={<CollaboratorDetail />} />
         <Route path="/story" element={<Story />} />
         <Route path="/adopt" element={<AdoptForm />} />
+        <Route path="/feedback" element={<FeedbackForm />} />
         <Route path="/leftover" element={<LeftOver />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/checkout" element={<CheckoutPage />} />
+        <Route path="/invoice" element={<InvoicePage />} />
+        <Route path="/orders" element={<Orders />} />
+
+        <Route path="/admin" element={<AdminDashboard />} />
+        <Route path="/admin/pets" element={<PetsManagement />} />
+        <Route path="/admin/products" element={<ProductsManagement />} />
+        <Route path="/admin/pets/new" element={<PetForm />} />
+        <Route path="/admin/pets/:id" element={<PetForm />} />
+        <Route path="/admin/products/new" element={<ProductForm />} />
+        <Route path="/admin/products/:id" element={<ProductForm />} />
+        <Route path="/admin/orders" element={<CustomerOrder />} />
       </Routes>
       <Footer />
     </Router>

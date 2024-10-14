@@ -3,23 +3,24 @@ import './Story.css'; // You can create this CSS file for styling
 
 function Story() {
   return (
-    <div className="container mt-5">
-      <h2 className="mb-4">Our Story</h2>
-      <div className="story-content">
+    <div className='story-content'>
+      <div >
+      <h2 className="mb-4 text-light">Our Story</h2>
+
         <p>
           <strong>Our Organization's Journey</strong>
         </p>
         <p>
-          Our organization was founded in 1999 by Archita Pandey with a mission to provide
+          Our organization was founded in 2010 by Archita Pandey with a mission to provide
           a loving and caring environment for animals in need. It all began with a simple idea:
           to make a difference in the lives of pets who had been abandoned or were living in
           unfortunate conditions.
         </p>
         <p>
-          Since its inception, we have grown from a small initiative into a thriving community
-          dedicated to animal welfare. We have rescued and adopted out over 100+ pets,
-          each one finding a new lease on life thanks to the support of our donors, volunteers,
-          and partners.
+        Adopting a pet from RescueRover means giving a second chance to an animal in need.
+        Many of our cats and dogs come from challenging situations, and with your love and support,
+        they can find a fresh start and a forever home. By adopting, you're not only gaining a 
+        loyal companion but also helping us continue our mission to rescue and care for animals in need.
         </p>
         <p>
           Our work is not just about providing shelter; it's about creating a better world for
@@ -32,13 +33,13 @@ function Story() {
         <div className="story-stats">
           <h4>Our Impact:</h4>
           <ul>
-            <li><strong>Number of Pets Rescued:</strong> 500</li>
-            <li><strong>Number of Pets Adopted:</strong> 100+</li>
+            <li><strong>Number of Pets Rescued:</strong> 1500+</li>
+            <li><strong>Number of Pets Adopted:</strong> 1000+</li>
           </ul>
         </div>
       </div>
     </div>
-  );
+ );
 }
 
 export default Story;

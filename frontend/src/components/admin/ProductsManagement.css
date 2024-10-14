@@ -1,0 +1,22 @@
+.products-management {
+    padding: 20px;
+    background: #ffffff;
+  }
+  
+  .products-management table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .products-management th,
+  .products-management td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .products-management .actions {
+    display: flex;
+    gap: 10px;
+  }
+  

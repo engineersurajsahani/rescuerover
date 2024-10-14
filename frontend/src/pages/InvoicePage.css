@@ -1,0 +1,31 @@
+.invoice-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.invoice-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.invoice-title {
+  text-align: center;
+  color: #333;
+}
+
+.invoice-header,
+.invoice-items,
+.invoice-total {
+  margin: 20px 0;
+}
+
+.invoice-buttons {
+  display: flex;
+  justify-content: space-between;
+}

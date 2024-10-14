@@ -41,6 +41,16 @@ function Cat() {
   };
 
   return (
+    <>
+    <div className="banner-container">
+    <img 
+        src={`${process.env.PUBLIC_URL}/images/logo/rescat.jpeg`}
+        alt="Cat Banner"
+        className="banner-image"
+        />
+    </div>
+
+
     <div className="container mt-5">
       <h2 className="mb-4">Cats</h2>
       <div className="mb-4">
@@ -54,7 +64,13 @@ function Cat() {
           className={`btn me-2 ${filter === 'Normal' ? 'btn-secondary' : 'btn-outline-secondary'}`}
           onClick={() => handleFilter('Normal')}
         >
-          Normal
+        Normal
+        </button>
+          <button
+          className={`btn me-2 ${filter === 'Kitten' ? 'btn-secondary' : 'btn-outline-secondary'}`}
+          onClick={() => handleFilter('Kitten')}
+        >
+          Kitten
         </button>
         <button
           className={`btn ${filter === 'All' ? 'btn-success' : 'btn-outline-success'}`}
@@ -66,13 +82,14 @@ function Cat() {
       <div className="row">
         {filteredCats.map((cat, index) => (
           <div className="col-md-12 mb-4" key={cat._id}>
-            <div className="card horizontal-card">
+            <div className=" horizontal-card">
               <div className="row g-0">
                 {index % 2 === 0 ? (
                   <>
                     <div className="col-md-4">
                       <div className="image-container">
-                        <img src={cat.imageUrl} className="img-fluid rounded-start" alt={cat.name} />
+                      <img src={`${process.env.PUBLIC_URL}/images/pets/${cat.imageUrl}.jpeg`} width={200} height={200} alt={cat.name} />
+      
                         {cat.adopted === 'Yes' && <span className="adopted-tag">Adopted</span>}
                       </div>
                     </div>
@@ -97,7 +114,8 @@ function Cat() {
                     </div>
                     <div className="col-md-4">
                       <div className="image-container">
-                        <img src={cat.imageUrl} className="img-fluid rounded-end" alt={cat.name} />
+                      <img src={`${process.env.PUBLIC_URL}/images/pets/${cat.imageUrl}.jpeg`} width={200} height={200} alt={cat.name} />
+      
                         {cat.adopted === 'Yes' && <span className="adopted-tag">Adopted</span>}
                       </div>
                     </div>
@@ -106,12 +124,13 @@ function Cat() {
               </div>
             </div>
           </div>
-        ))}
+      ))}
       </div>
       <div className='text-center m-5'>
         <button className="btn btn-primary text-center" onClick={handleAdoptClick}>I am willing to adopt a pet</button>
       </div>
     </div>
+    </>
   );
 }
 

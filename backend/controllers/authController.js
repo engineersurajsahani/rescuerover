@@ -38,15 +38,15 @@ exports.loginUser = async (req, res) => {
       return res.status(401).json({ error: 'Incorrect password. Please try again.' });
     }
 
-    const token = generateToken(user._id, user.username, user.email);
+    const token = generateToken(user._id, user.username, user.email,user.userType);
     res.status(200).json({ message: 'Login successful', token });
   } catch (err) {
     res.status(500).json({ error: 'Server error during login. Please try again.' });
   }
 };
 
-const generateToken = (id, username, email) => {
-  return jwt.sign({ id, username, email }, "surajsahani", {
+const generateToken = (id, username, email, userType) => {
+  return jwt.sign({ id, username, email, userType }, "surajsahani", {
     expiresIn: '30d',
   });
 };

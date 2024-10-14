@@ -1,21 +1,41 @@
+/* Background for Story Page */
 .story-content {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+  background-image: url('../../public/images/products/feed1.jpeg'); /* Replace with your image path */
+  background-size: cover;  /* Ensures the image covers the entire container */
+  background-position: center;  /* Centers the background image */
+  background-repeat: no-repeat;  /* Prevents the image from repeating */
+  padding: 40px;
+  border-radius: 8px;
+  color: white;  /* Text color to contrast with the background image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Optional: Adds some shadow to lift the content */
+  position: relative;
+  overflow: hidden;  /* Ensures no overflow issues */
 }
 
-.story-content p {
-  margin-bottom: 1em;
+.story-content h2, .story-content p, .story-content h4, .story-content ul {
+  z-index: 1; /* Ensures text is visible above the background */
+  position: relative;  /* Allows the text to be properly positioned */
+}
+.story-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);  /* Dark overlay to make text more readable */
+  z-index: 0;  /* Places overlay behind the text */
+  border-radius: 8px;
 }
 
-.story-stats {
-  margin-top: 2em;
+.container {
+  margin-top: 80px;  /* Ensure enough space between navbar and content */
+  position: relative;
+  z-index: 2;
 }
 
-.story-stats ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.story-stats li {
-  margin-bottom: 0.5em;
+/* Navbar z-index to ensure it's clickable */
+.navbar {
+  position: relative;
+  z-index: 10;  /* Set a higher z-index for the navbar */
 }

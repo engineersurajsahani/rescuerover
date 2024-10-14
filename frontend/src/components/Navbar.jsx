@@ -4,15 +4,18 @@ import { Link, useNavigate } from 'react-router-dom';
 function Navbar() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [username, setUsername] = useState('');
+  const [userType, setUserType] = useState('');
   const navigate = useNavigate();
 
   useEffect(() => {
     const token = localStorage.getItem('token');
     const savedUsername = localStorage.getItem('username');
+    const savedUserType = localStorage.getItem('userType'); // Get user type from localStorage
 
     if (token) {
       setIsLoggedIn(true);
       setUsername(savedUsername || '');
+      setUserType(savedUserType || ''); // Set user type
     } else {
       setIsLoggedIn(false);
     }
@@ -21,8 +24,10 @@ function Navbar() {
   const handleLogout = () => {
     localStorage.removeItem('token');
     localStorage.removeItem('username');
+    localStorage.removeItem('userType'); // Clear user type
     setIsLoggedIn(false);
     setUsername('');
+    setUserType(''); // Reset user type
     navigate('/login');
   };
 
@@ -50,11 +55,25 @@ function Navbar() {
                   <Link className="nav-link" to="/products">Our Products</Link>
                 </li>
                 <li className="nav-item">
+                  <Link className="nav-link" to="/orders">My Orders</Link>
+                </li>
+                <li className="nav-item">
                   <Link className="nav-link" to="/collaboration">Collaboration</Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/story">Our Story</Link>
                 </li>
+                {userType === 'user' && (
+                  <li className="nav-item">
+                  <Link className="nav-link" to="/feedback">Feedback</Link>
+                </li>
+                )}
+                
+                {userType === 'admin' && ( // Conditional rendering for admin
+                  <li className="nav-item">
+                    <Link className="nav-link" to="/admin">Admin Dashboard</Link>
+                  </li>
+                )}
                 <li className="nav-item">
                   <span className="nav-link">{username}</span>
                 </li>

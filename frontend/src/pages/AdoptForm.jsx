@@ -11,7 +11,7 @@ function AdoptForm() {
 
         emailjs
             .sendForm('rescuerover', 'archita_pandey', form.current, {
-                publicKey: 'HvVruA2ogbtnZ9EKK',
+                publicKey: 'GBLIptEo_EafZfTgh',
             })
             .then(
                 () => {

@@ -35,7 +35,8 @@ function DogDetail() {
       </div>
       <h2 className="mb-4">Dog Details</h2>
       <div className="card">
-        <img src={dog.imageUrl} className="card-img-top" alt={dog.name} />
+        <img src={`${process.env.PUBLIC_URL}/images/pets/${dog.imageUrl}.jpeg`} width={200} height={200} alt={dog.name} />
+      
         <div className="card-body">
           <h5 className="card-title">{dog.name}</h5>
           <p className="card-text">Age: {dog.age} years</p>

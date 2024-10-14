@@ -1,0 +1,18 @@
+.product-form-container {
+  padding: 20px;
+}
+
+.product-form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}

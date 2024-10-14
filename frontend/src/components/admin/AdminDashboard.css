@@ -1,0 +1,49 @@
+/* AdminDashboard.css */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.admin-dashboard {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #343a40; /* Dark grey */
+}
+
+.dashboard-intro {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #6c757d; /* Light grey */
+}
+
+.admin-nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.admin-nav-link {
+  display: inline-block;
+  padding: 15px 25px;
+  margin: 10px;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.admin-nav-link:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  transform: scale(1.05); /* Slightly scale up on hover */
+}

@@ -10,7 +10,7 @@ function Home() {
       <div className="video-background">
         <video autoPlay loop muted>
           <source
-            src="https://media.istockphoto.com/id/1073535242/video/lovely-puppy-labrador-running-to-the-camera-on-the-lawn-4k.mp4?s=mp4-640x640-is&k=20&c=zx5NdVhxUJP2QZogPtKEx0ULqyPRKknpjv-RlDeRIKc="
+            src={`${process.env.PUBLIC_URL}/images/products/pet3.mp4`}
             type="video/mp4"
           />
           Your browser does not support the video tag.
@@ -18,10 +18,13 @@ function Home() {
       </div>
       <div className="overlay">
         <div className="content">
-          <h1 className="display-4">Welcome to RescueRover.org</h1>
+          <b><h1 className="display-4">Welcome to RescueRover.org</h1></b>
           <p className="lead">
             We have been dedicated to rescuing and rehoming pets for over 15 years.
           </p>
+          <b><p className='lead1'>Explore our Adoptable Cats and Adoptable Dogs pages today, 
+              and find out how you can make a difference in an animal’s life. 
+              Together, we can help every pet find a place to call home.</p></b>
           {!token && (
             <div className="button-group">
               <Link to="/login" className="btn btn-primary me-3">Login</Link>
@@ -32,10 +35,11 @@ function Home() {
 
         {token && (
           <div className="new-friend-section mt-5">
-            <h2 className="display-5">Find Your New Best Friend</h2>
-            <p className="lead">Choose from our rescued pets below to find your forever companion.</p>
+            <h2 className="display-5 text-light">Find Your New Best Friend</h2>
+            <p className="lead">Adopt. Love. Change a Life.</p>
+            
             <div className="button-group mt-3">
-              <Link to="/dogs" className="btn btn-success me-3">Explore Dogs</Link>
+              <Link to="/dogs" className="btn btn-primary me-3">Explore Dogs</Link>
               <Link to="/cats" className="btn btn-warning">Explore Cats</Link>
             </div>
           </div>

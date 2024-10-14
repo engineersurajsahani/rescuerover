@@ -35,7 +35,8 @@ function CatDetail() {
       </div>
       <h2 className="mb-4">Cat Details</h2>
       <div className="card">
-        <img src={cat.imageUrl} className="card-img-top" alt={cat.name} />
+      <img src={`${process.env.PUBLIC_URL}/images/pets/${cat.imageUrl}.jpeg`} width={200} height={200} alt={cat.name} />
+      
         <div className="card-body">
           <h5 className="card-title">{cat.name}</h5>
           <p className="card-text">Age: {cat.age} years</p>

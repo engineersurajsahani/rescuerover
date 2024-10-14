@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const hotels = [
+  
   {
     name: 'Flavor Street',
     image: `${process.env.PUBLIC_URL}/images/products/flavor-street.jpg`,
@@ -31,7 +32,15 @@ function Collaborate() {
 
   return (
     <div className="container mt-5">
-      <h2 className="mb-4">Our Collaborations</h2>
+      <h2 className="mb-4 text-dark">Our Collaborations</h2>
+      <b><p className='lead5'>We’re thrilled to share our partnership with PerfectBites,The Grand Table,Flavor Street 
+    who are generously providing their delicious leftovers to our adoptable dogs and cats.
+     This collaboration ensures that our furry friends receive nutritious, tasty meals while they
+      wait for their forever homes. Thanks to PerfectBites,The Grand Table,Flavor Street 's commitment to reducing food waste 
+      and supporting animal welfare, our pets are enjoying extra special meals as they prepare to meet
+       their new families.</p></b>
+      <b><p className='lead6'>Every visit to PerfectBites,The Grand Table,Flavor Street  helps make a difference for our adoptable pets. 
+        Thank you for supporting a cause that feeds both the body and the heart!</p></b>
       <div className="row mb-4">
         {hotels.map((hotel, index) => (
           <div className="col-md-4 mb-4" key={index}>
@@ -48,10 +57,10 @@ function Collaborate() {
                 color: 'white',
                 textAlign: 'center',
                 lineHeight: '200px',
-                fontSize: '1.5rem'
+                fontSize: '1rem'
               }}
             >
-              {hotel.name}
+              {hotel.name}              
             </button>
           </div>
         ))}
