@@ -54,9 +54,12 @@ function Navbar() {
                 <li className="nav-item">
                   <Link className="nav-link" to="/products">Our Products</Link>
                 </li>
-                <li className="nav-item">
+                {userType === 'user' && (
+                  <li className="nav-item">
                   <Link className="nav-link" to="/orders">My Orders</Link>
                 </li>
+                )}
+                
                 <li className="nav-item">
                   <Link className="nav-link" to="/collaboration">Collaboration</Link>
                 </li>

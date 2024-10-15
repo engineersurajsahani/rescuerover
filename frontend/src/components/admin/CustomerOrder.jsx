@@ -67,7 +67,7 @@ function CustomerOrder() {
                     ))}
                   </ul>
                 </td>
-                <td>${order.totalAmount.toFixed(2)}</td>
+                <td>₹{order.totalAmount.toFixed(2)}</td>
                 <td>{order.paymentMethod}</td>
                 <td>{order.address}</td>
                 <td>{order.phoneNumber}</td>

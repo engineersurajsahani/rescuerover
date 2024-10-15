@@ -44,7 +44,7 @@ function ProductsManagement() {
             products.map((product) => (
               <tr key={product._id}>
                 <td>{product.name}</td>
-                <td>${product.price}</td>
+                <td>₹{product.price}</td>
                 <td>{product.category}</td>
                 <td>
                   <Link to={`/admin/products/${product._id}`} className="btn btn-edit">
